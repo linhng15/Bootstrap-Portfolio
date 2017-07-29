@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+  background-color: #d4dddd
 }
 
 * {
@@ -98,6 +98,16 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color: white;
+  background-color: 4aaaa5;
+  border-radius: 25px;
+}
 
 /*footer*/
 
